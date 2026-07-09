@@ -6,12 +6,12 @@ A Retrieval-Augmented Generation (RAG) chatbot that intelligently answers questi
 
 ## Features
 
-* 📄 Document-based Q&A using vector search (FAISS)
-* 🧠 Smart fallback to LLM when context is not relevant
-* 🔍 Similarity threshold-based decision making
-* 💬 Conversation memory support
-* 🐳 Dockerized for easy deployment
-* ☁️ Ready for AWS deployment
+* Document-based Q&A using vector search (FAISS)
+* Smart fallback to LLM when context is not relevant
+* Similarity threshold-based decision making
+* Conversation memory support
+* Dockerized for easy deployment
+* Ready for AWS deployment
 
 ---
 
