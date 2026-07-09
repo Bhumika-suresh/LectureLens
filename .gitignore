@@ -1,0 +1,32 @@
+.env
+*.env
+
+# Virtual env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Vector DB
+vectorstore/
+
+# Data (optional)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.env
+.env
+
+.vercel
+.env*

@@ -1,0 +1,11 @@
+
+langchain
+langchain-community
+pymupdf
+pinecone-client
+langchain-pinecone
+langchain-google-genai
+google-generativeai
+fastapi
+uvicorn
+python-dotenv
