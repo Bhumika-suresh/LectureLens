@@ -1,10 +1,10 @@
-# 🤖 RAG Chatbot with Ollama + LangChain
+# RAG Chatbot with Ollama + LangChain
 
 A Retrieval-Augmented Generation (RAG) chatbot that intelligently answers questions using both **document knowledge** and **LLM fallback (Ollama)**.
 
 ---
 
-## 🚀 Features
+## Features
 
 * 📄 Document-based Q&A using vector search (FAISS)
 * 🧠 Smart fallback to LLM when context is not relevant
@@ -15,7 +15,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that intelligently answers questi
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 RAG_project/
@@ -37,7 +37,7 @@ RAG_project/
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * **LangChain**
 * **FAISS**
@@ -47,7 +47,7 @@ RAG_project/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Documents are loaded and converted into embeddings (`ingest.py`)
 2. Stored in a FAISS vector database
@@ -59,7 +59,7 @@ RAG_project/
 
 ---
 
-## 🔁 RAG + LLM Hybrid Logic
+## RAG + LLM Hybrid Logic
 
 ```python
 if best_score < THRESHOLD and len(relevant_docs) >= 2:
@@ -70,7 +70,7 @@ else:
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -106,7 +106,7 @@ Make sure Ollama is running:
 ollama run phi
 ```
 
-> ⚠️ Recommended for low RAM systems
+> Recommended for low RAM systems
 
 ---
 
@@ -126,7 +126,7 @@ python app.py
 
 ---
 
-## 🐳 Docker Setup
+## Docker Setup
 
 ### Build image
 
@@ -142,7 +142,7 @@ docker run -p 8000:8000 rag-chatbot
 
 ---
 
-## ☁️ AWS Deployment (EC2)
+## AWS Deployment (EC2)
 
 1. Launch EC2 instance (Ubuntu)
 2. Install Docker
@@ -156,7 +156,7 @@ docker run -d -p 8000:8000 rag-chatbot
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * Avoid heavy models like `llama3` on low-memory systems
 * Use lightweight models:
@@ -167,7 +167,7 @@ docker run -d -p 8000:8000 rag-chatbot
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Web UI (React / Streamlit)
 * Chat history persistence (DB)
@@ -177,7 +177,7 @@ docker run -d -p 8000:8000 rag-chatbot
 
 ---
 
-## ⭐ Contribute
+## Contribute
 
 Pull requests are welcome! Feel free to improve the project.
 
