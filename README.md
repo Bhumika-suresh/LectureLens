@@ -156,6 +156,20 @@ docker run -d -p 8000:8000 rag-chatbot
 
 ---
 
+## Implementation Output
+
+<img width="959" height="437" alt="image" src="https://github.com/user-attachments/assets/7818a6d6-2258-4628-83a6-a7463e09d357" />
+
+
+
+<img width="959" height="440" alt="image" src="https://github.com/user-attachments/assets/8d13f910-16cd-4663-949a-522ee0f88e7d" />
+
+
+
+<img width="959" height="440" alt="image" src="https://github.com/user-attachments/assets/61fc8ce0-3252-4f26-bbbf-e441a0ba1932" />
+
+---
+
 ## Notes
 
 * Avoid heavy models like `llama3` on low-memory systems
