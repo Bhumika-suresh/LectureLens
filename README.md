@@ -1,4 +1,4 @@
-# RAG Chatbot with Ollama + LangChain
+# LectureLens-RAG Chatbot with Ollama + LangChain
 
 A Retrieval-Augmented Generation (RAG) chatbot that intelligently answers questions using both **document knowledge** and **LLM fallback (Ollama)**.
 
